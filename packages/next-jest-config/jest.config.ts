@@ -10,6 +10,7 @@ const createJestConfig = nextJest({
   dir: process.env.NEXT_APP_PATH,
 });
 
+// path alias 설정
 const getTsConfigPath = () => {
   const tsConfig = require(process.env.NEXT_APP_PATH + '/tsconfig.json');
   const { paths } = tsConfig.compilerOptions as { paths: Record<string, string[]> };

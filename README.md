@@ -1,6 +1,16 @@
-# Turborepo starter
+# Turborepo starter + jest config package for nextjs
 
-This is an official starter Turborepo.
+This is an official starter Turborepo with additional jest configuration package for Next.js applications.
+
+## Additional Features
+
+- `@repo/next-jest-config`: Jest configuration package for Next.js applications in monorepo
+- Test script example: `test:docs` script demonstrates how to use the jest config package
+  ```sh
+  npm run test:docs
+  ```
+
+The content below is the same as the official Turborepo starter README.
 
 ## Using this example
 
@@ -21,6 +31,7 @@ This Turborepo includes the following packages/apps:
 - `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
 - `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+- `@repo/next-jest-config`: Jest configuration package for Next.js applications in monorepo
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
